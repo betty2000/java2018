@@ -1,10 +1,33 @@
 package com.tom;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Hello{
 	
 	public static void main(String[] args) {
+		Random random = 
+		
+		
+		
+		
+		float n = 10.666f;
+		String nick = "Betty";
+		System.out.printf("Hi, %s, Your age: %.2f\n", nick, n);	
+		
+		double c  = 24.0;
+		System.out.println(c*(9/5.0)+32.0);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		Scanner scanner =new Scanner(System.in);
 		String name = scanner.nextLine();
 		System.out.println(name);	
@@ -20,6 +43,9 @@ public class Hello{
 		String s2 = new String("abc");
 		System.out.println(s1 == s2);
 		
+					
+		
+		
 		
 		
 				
@@ -30,8 +56,8 @@ public class Hello{
 	Person p = new Person(52f,1.63f);
 //	p.weight = 52.5f;
 //	p.height = 1.63f;
-	System.out.println(p.bmi());
-	p.hello();
+	//System.out.println(p.bmi());
+	//p.hello();
 //	person hank = new Person();
 //	Person jack=null;
 //	jack.hello();
