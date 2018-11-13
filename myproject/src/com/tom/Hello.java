@@ -6,7 +6,15 @@ import java.util.Scanner;
 public class Hello{
 	
 	public static void main(String[] args) {
-		Random random = new Random
+		for(int i = 0 ; i < 3 ; i++);{
+		System.out.println();
+	}
+}
+}
+		
+		
+		
+		/*Random random = new Random
 		int secret = 		
 		
 		
@@ -74,7 +82,7 @@ public class Hello{
 	System.out.println( "age");
 	System.out.println( "weight");
 	System.out.println( "height");
-	System.out.println(schoolyears);*/
-}
+	System.out.println(schoolyears);}*/
+
 					
 	
