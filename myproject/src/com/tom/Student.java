@@ -1,7 +1,6 @@
 package com.tom;
 
 public class Student {
-	public static void main(String[] args) {}
 			
 		String name;
 	    int english;
@@ -26,7 +25,16 @@ public class Student {
 	    }
          public int getA(){
         	return(english+math)/2;
-	    }
+       	}
+         public char getA(){
+         char granding = 'F';
+         int average = getA();
+         switch average/10  
+         case 10:
+         case 9:	 
+        	 }
+    	
+    }
       
          
 }
